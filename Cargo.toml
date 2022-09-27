@@ -1,0 +1,12 @@
+[package]
+name = "mbedtls-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.60.1"
+cc = "1.0.73"
+cmake = "0.1.48"
+eyre = "0.6.8"
